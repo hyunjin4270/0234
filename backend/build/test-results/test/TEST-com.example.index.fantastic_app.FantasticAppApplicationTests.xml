@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.index.fantastic_app.FantasticAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-27T04:55:56" hostname="DESKTOP-L3FP3OE" time="0.755">
+<testsuite name="com.example.index.fantastic_app.FantasticAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-30T06:49:52" hostname="DESKTOP-L3FP3OE" time="0.582">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.index.fantastic_app.FantasticAppApplicationTests" time="0.755"/>
-  <system-out><![CDATA[13:55:50.429 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.index.fantastic_app.FantasticAppApplicationTests]: FantasticAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:55:50.590 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.index.fantastic_app.FantasticAppApplication for test class com.example.index.fantastic_app.FantasticAppApplicationTests
+  <testcase name="contextLoads()" classname="com.example.index.fantastic_app.FantasticAppApplicationTests" time="0.582"/>
+  <system-out><![CDATA[15:49:43.719 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.index.fantastic_app.FantasticAppApplicationTests]: FantasticAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:49:43.889 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.index.fantastic_app.FantasticAppApplication for test class com.example.index.fantastic_app.FantasticAppApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,18 +14,18 @@
 
  :: Spring Boot ::                (v3.5.3)
 
-2025-06-27T13:55:51.401+09:00  INFO 18036 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : Starting FantasticAppApplicationTests using Java 24 with PID 18036 (started by dn in C:\Users\dn\Documents\GitHub\-\backend)
-2025-06-27T13:55:51.402+09:00  INFO 18036 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : No active profile set, falling back to 1 default profile: "default"
-2025-06-27T13:55:52.501+09:00  INFO 18036 --- [fantastic-app] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-27T13:55:52.549+09:00  INFO 18036 --- [fantastic-app] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
-2025-06-27T13:55:53.097+09:00  INFO 18036 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-27T13:55:53.471+09:00  INFO 18036 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:538f1452-0094-4beb-aeb7-4a04f646070a user=SA
-2025-06-27T13:55:53.474+09:00  INFO 18036 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-27T13:55:53.642+09:00  INFO 18036 --- [fantastic-app] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-27T13:55:53.792+09:00  INFO 18036 --- [fantastic-app] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-06-27T13:55:53.880+09:00  INFO 18036 --- [fantastic-app] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-27T13:55:54.495+09:00  INFO 18036 --- [fantastic-app] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-27T13:55:54.674+09:00  INFO 18036 --- [fantastic-app] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-30T15:49:44.660+09:00  INFO 15904 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : Starting FantasticAppApplicationTests using Java 24 with PID 15904 (started by dn in C:\Users\dn\Documents\GitHub\0234\backend)
+2025-06-30T15:49:44.664+09:00  INFO 15904 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-06-30T15:49:45.797+09:00  INFO 15904 --- [fantastic-app] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-30T15:49:45.888+09:00  INFO 15904 --- [fantastic-app] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2025-06-30T15:49:46.712+09:00  INFO 15904 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-30T15:49:47.037+09:00  INFO 15904 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:119f95c2-dbd1-430a-a03c-de05b6cf5d39 user=SA
+2025-06-30T15:49:47.040+09:00  INFO 15904 --- [fantastic-app] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-30T15:49:47.136+09:00  INFO 15904 --- [fantastic-app] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-30T15:49:47.262+09:00  INFO 15904 --- [fantastic-app] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-30T15:49:47.338+09:00  INFO 15904 --- [fantastic-app] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-30T15:49:47.928+09:00  INFO 15904 --- [fantastic-app] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-30T15:49:48.046+09:00  INFO 15904 --- [fantastic-app] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -33,10 +33,11 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-27T13:55:55.188+09:00  INFO 18036 --- [fantastic-app] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-27T13:55:55.195+09:00  INFO 18036 --- [fantastic-app] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-27T13:55:55.411+09:00  WARN 18036 --- [fantastic-app] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-27T13:55:56.266+09:00  INFO 18036 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : Started FantasticAppApplicationTests in 5.374 seconds (process running for 7.257)
+2025-06-30T15:49:49.302+09:00  INFO 15904 --- [fantastic-app] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-30T15:49:49.356+09:00  INFO 15904 --- [fantastic-app] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-30T15:49:50.007+09:00  INFO 15904 --- [fantastic-app] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-06-30T15:49:50.088+09:00  WARN 15904 --- [fantastic-app] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-30T15:49:51.354+09:00  INFO 15904 --- [fantastic-app] [    Test worker] c.e.i.f.FantasticAppApplicationTests     : Started FantasticAppApplicationTests in 7.176 seconds (process running for 9.092)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (C:\Users\dn\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.6\17b32fd9f57deef02842f7f05abc4ad8127fe34e\byte-buddy-agent-1.17.6.jar)
