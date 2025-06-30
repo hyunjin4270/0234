@@ -21,5 +21,5 @@ public class User {
     private String password;      // BCrypt 해시 저장
 
     @Column(nullable = false, length = 20)
-    private String role;          // ex) "ROLE_USER", "ROLE_ADMIN"
+    private String role;          // "ROLE_USER", "ROLE_ADMIN"
 }
