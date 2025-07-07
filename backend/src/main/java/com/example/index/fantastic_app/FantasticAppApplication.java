@@ -7,17 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FantasticAppApplication implements CommandLineRunner {
-	@Autowired
-	private UserRepository userRepository;
-
+public class FantasticAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FantasticAppApplication.class, args);
-	}
-
-	@Override
-	public void run(String... args) {
-		long count = userRepository.count();
-		System.out.println("User 테이블 레코드 수: " + count);
 	}
 }
